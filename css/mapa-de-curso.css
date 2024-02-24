@@ -1,0 +1,15 @@
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 260px;
+}
+
+/*mobile*/
+
+@media screen and (max-width:768px){
+    
+    .rodapePrincipal-navMap-list{
+        height: auto;
+    }
+}

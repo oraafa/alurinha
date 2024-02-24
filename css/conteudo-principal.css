@@ -1,0 +1,33 @@
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin-bottom: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n){
+    margin-left: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
+    margin-right: 0;
+}
+
+/*mobile*/
+
+
+@media screen and (max-width:768px){
+        
+    .conteudoPrincipal-cursos{
+        flex-direction: column;
+    }
+
+
+    .conteudoPrincipal-cursos-link{
+        width: 100%;
+    }
+}
